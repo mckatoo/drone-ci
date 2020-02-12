@@ -1,13 +1,11 @@
-DRONE_ADMIN=
-DRONE_GITHUB_CLIENT=
-DRONE_GITHUB_SECRET=
-DRONE_SECRET=
-DRONE_HOST=
+export DRONE_AGENTS_ENABLED=true
+export DRONE_GITHUB_CLIENT_ID=
+export DRONE_GITHUB_CLIENT_SECRET=
+export DRONE_RPC_SECRET=
+export DRONE_SERVER_HOST=fsdfsdf.ngrok.io
+export DRONE_SERVER_PROTO=http
 
-# Apenas se voce for usar banco de dados externo e não o padrão: sqlite
-# DB_DRIVER=postgres
-# DB_HOST=<SEU IP DA MAQUINA> Não funciona usando localhost ou 127.0.0.1, tem que ser o ip
-# DB_PORT=5432
-# DB_DATABASE=<NOME DA BASE> O drone não cria a base, voce deve executar o create table
-# DB_USERNAME=<USER DO DB>
-# DB_PASSWORD=<PASSWORD DO DB>
+export HOSTNAME_RUNNER=drone-runner
+export DRONE_RPC_HOST=fsdfsdf.ngrok.io
+export DRONE_RPC_PROTO=http
+export DRONE_RUNNER_CAPACITY=2
