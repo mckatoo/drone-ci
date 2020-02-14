@@ -1,11 +1,11 @@
 export DRONE_AGENTS_ENABLED=true
-export DRONE_GITHUB_CLIENT_ID=
-export DRONE_GITHUB_CLIENT_SECRET=
-export DRONE_RPC_SECRET=
-export DRONE_SERVER_HOST=fsdfsdf.ngrok.io
+export DRONE_GITHUB_CLIENT_ID=ghjghjghj
+export DRONE_GITHUB_CLIENT_SECRET=ghjghjhgjghj
+export DRONE_RPC_SECRET=ghjghjghjghj
+export DRONE_SERVER_HOST=drone-server
 export DRONE_SERVER_PROTO=http
 
 export HOSTNAME_RUNNER=drone-runner
-export DRONE_RPC_HOST=fsdfsdf.ngrok.io
+export DRONE_RPC_HOST=drone-server
 export DRONE_RPC_PROTO=http
 export DRONE_RUNNER_CAPACITY=2
