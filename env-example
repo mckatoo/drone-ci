@@ -20,5 +20,5 @@ export DRONE_GITHUB_CLIENT_SECRET=*****************
 export DRONE_RPC_SECRET=*****************
 export DRONE_SERVER_HOST=drone.ikatoo.com.br
 export DRONE_SERVER_PROTO=http
-export DRONE_USER_CREATE=username:mckatoo,admin:true
+export DRONE_USER_CREATE=username:youruser,admin:true
 export STORAGE_TYPE=local
