@@ -9,7 +9,8 @@ export DRONE_GITHUB_CLIENT_SECRET=********
 export DRONE_RPC_SECRET==********
 export DRONE_SERVER_HOST=drone.domain.com
 export DRONE_SERVER_PROTO=http
-export DRONE_USER_CREATE=username:mckatoo,admin:true
+export DRONE_USER_ADMIN=youruseradmin
+export DRONE_USER_CREATE=username:${DRONE_USER_ADMIN},admin:true
 export STORAGE_TYPE=local
 export DRONE_DATABASE_DRIVER=mysql
 export DRONE_DATABASE_DATASOURCE=root:${MYSQL_ROOT_PASSWORD}@tcp(dblb:3306)/drone-ci?parseTime=true
