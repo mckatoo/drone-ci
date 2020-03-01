@@ -10,7 +10,7 @@ services:
   drone-server:
     image: drone/drone:1
     ports:
-      - 8000:80
+      - 8080:80
       - 8443:443
     networks:
       - global
