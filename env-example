@@ -1,16 +1,15 @@
-export DRONE_RPC_HOST=drone.domain.com
 export DRONE_RPC_PROTO=http
+export DRONE_RPC_HOST=drone-server
+export DRONE_RPC_SECRET=**********************
 export DRONE_RUNNER_CAPACITY=2
 export DRONE_RUNNER_NAME=drone-runner
 
 export DRONE_AGENTS_ENABLED=true
-export DRONE_GITHUB_CLIENT_ID=*********
-export DRONE_GITHUB_CLIENT_SECRET=********
-export DRONE_RPC_SECRET==********
+export DRONE_GITHUB_CLIENT_ID=**********************
+export DRONE_GITHUB_CLIENT_SECRET=**********************
 export DRONE_SERVER_HOST=drone.domain.com
 export DRONE_SERVER_PROTO=http
 export DRONE_USER_ADMIN=youruseradmin
 export DRONE_USER_CREATE=username:${DRONE_USER_ADMIN},admin:true
-export STORAGE_TYPE=local
 export DRONE_DATABASE_DRIVER=mysql
-export DRONE_DATABASE_DATASOURCE=root:${MYSQL_ROOT_PASSWORD}@tcp(dblb:3306)/drone-ci?parseTime=true
+export DRONE_DATABASE_DATASOURCE='root:pass@tcp(mysqlhost:3306)/drone-ci?parseTime=true'
