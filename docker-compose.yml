@@ -3,15 +3,18 @@ version: "3.7"
 networks:
   global:
     driver: overlay
+  mariadb_dbnet:
+    external: true
 
 services:
   drone-server:
     image: drone/drone:1
     ports:
-      - 8080:80
+      - 8000:80
       - 8443:443
     networks:
       - global
+      - mariadb_dbnet
     volumes:
       - drone-data:/var/lib/drone/
       - /var/run/docker.sock:/var/run/docker.sock
